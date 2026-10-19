@@ -1,0 +1,20 @@
+{
+  "name": "tab-garden",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A local-first browser garden for tabs, reading queues and recoverable duplicate cleanup.",
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs",
+    "test:e2e": "playwright test"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1"
+  }
+}
